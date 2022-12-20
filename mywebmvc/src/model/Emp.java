@@ -6,7 +6,6 @@ public class Emp {
 	private String fname;
 	private String address;
 	
-
 	public Emp() {}
 	
 	public Emp(String fname, String address) {
