@@ -18,6 +18,7 @@ public class EmpDao {
 		Class.forName(driver);
 		Connection con=	 DriverManager.getConnection(url,uname,pass);
 		return con;
+		
 	}
     public int save(Emp e) throws SQLException, ClassNotFoundException
 	{
